@@ -1,22 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Webpage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CARGADOOR</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Top Logo Bar */
+    .topbar {
+      width: 100%;
+      padding: 10px 0;
+      border-bottom: 2px solid #0d6efd;
+      text-align: center;
+    }
+
+    .logo img {
+      height: 60px;
+    }
+
+    /* Location Dropdown */
+    .location {
+      margin: 15px 0;
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    /* Card Section */
+    .card {
+      background: #dff0d8;
+      padding: 30px 20px;
+      border-radius: 10px;
+      text-align: center;
+      width: 350px;
+      max-width: 90%;
+    }
+
+    .card h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 12px 0;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      background: #f37021;
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #d65f1a;
+    }
+
+    .terms {
+      margin-top: 10px;
+      font-size: 11px;
+      color: #555;
+    }
+
+    /* Illustration */
+    .illustration {
+      margin-top: 40px;
+      max-width: 220px;
+    }
+
+    .illustration img {
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-    <h1>CARGADOOR</h1>
-    <p>Cargadoor E-commerce is a digital platform designed to simplify and enhance the process of buying and selling goods online. It serves as an online marketplace that connects sellers and customers in a secure, efficient, and user-friendly environment.
 
-The platform focuses on providing:
+  <!-- Logo Top Bar -->
+  <div class="topbar">
+    <div class="logo">
+      <!-- Replace with your actual logo file -->
+      <img src="img/Screenshot 2025-08-30 100601.png" alt="CARGADOOR Logo">
+    </div>
+  </div>
 
-Seamless Shopping Experience – Customers can browse products, compare options, and purchase with ease.
+  <!-- Location Selector -->
+  <select class="location">
+    <option selected>Jasaan, Misamis Oriental</option>
+    <option>Cagayan de Oro</option>
+    <option>Iligan</option>
+    <option>Butuan</option>
+  </select>
 
-Seller Support – Merchants have access to tools for managing inventory, tracking orders, and analyzing sales.
+  <!-- Card -->
+  <div class="card">
+    <h1>Welcome!</h1>
+    <p>Sign In or Sign Up to Continue...</p>
+    <button class="btn">Log In</button>
+    <button class="btn">Sign Up</button>
+    <p class="terms">By signing up, I have read and understand the terms and conditions</p>
+  </div>
 
-Secure Transactions – With integrated payment gateways and order tracking, both buyers and sellers can transact safely.
+  <!-- Illustration -->
+  <div class="illustration">
+    <!-- Replace with your actual delivery guy image -->
+    <img src="img/Screenshot 2025-08-30 100718.png" alt="Delivery Illustration">
+  </div>
 
-Scalability – Built with flexibility in mind, the system can handle a growing number of users and products.
-
-Cargadoor E-commerce aims to empower businesses of all sizes by giving them an accessible platform to reach a wider audience, while also offering customers convenience, trust, and variety in their online shopping journey.</p>
 </body>
-</html> 
+</html>
